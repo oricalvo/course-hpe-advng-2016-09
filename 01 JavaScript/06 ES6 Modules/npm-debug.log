@@ -1,0 +1,839 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'httpserver' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose cache add [ 'httpserver', null ]
+6 verbose cache add name=undefined spec="httpserver" args=["httpserver",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'httpserver',
+7 verbose parsed url   path: 'httpserver',
+7 verbose parsed url   href: 'httpserver' }
+8 silly lockFile 95761af6-httpserver httpserver
+9 verbose lock httpserver C:\Users\Student\AppData\Roaming\npm-cache\95761af6-httpserver.lock
+10 silly lockFile 95761af6-httpserver httpserver
+11 silly lockFile 95761af6-httpserver httpserver
+12 verbose addNamed [ 'httpserver', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile d20b802b-httpserver httpserver@
+15 verbose lock httpserver@ C:\Users\Student\AppData\Roaming\npm-cache\d20b802b-httpserver.lock
+16 silly addNameRange { name: 'httpserver', range: '*', hasData: false }
+17 verbose request where is /httpserver
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id a257a7826f660fa5
+20 verbose url raw /httpserver
+21 verbose url resolving [ 'https://registry.npmjs.org/', './httpserver' ]
+22 verbose url resolved https://registry.npmjs.org/httpserver
+23 verbose request where is https://registry.npmjs.org/httpserver
+24 info trying registry request attempt 1 at 11:19:47
+25 http GET https://registry.npmjs.org/httpserver
+26 http 200 https://registry.npmjs.org/httpserver
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"A9C4FTJ9KNWS3OSNB7N487YUN"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'content-encoding': 'gzip',
+27 silly registry.get     'cache-control': 'max-age=300',
+27 silly registry.get     'content-length': '3523',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Tue, 06 Sep 2016 08:15:30 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-dfw1829-DFW',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1473149730.899372,VS0,VE53',
+27 silly registry.get     vary: 'Accept-Encoding' } ]
+28 silly addNameRange number 2 { name: 'httpserver', range: '*', hasData: true }
+29 silly addNameRange versions [ 'httpserver',
+29 silly addNameRange   [ '0.0.0',
+29 silly addNameRange     '0.0.1',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.0.4',
+29 silly addNameRange     '0.0.5',
+29 silly addNameRange     '0.0.6',
+29 silly addNameRange     '0.0.7',
+29 silly addNameRange     '0.0.8',
+29 silly addNameRange     '0.0.9',
+29 silly addNameRange     '0.0.10',
+29 silly addNameRange     '0.0.11',
+29 silly addNameRange     '0.0.12',
+29 silly addNameRange     '0.0.13',
+29 silly addNameRange     '0.0.14',
+29 silly addNameRange     '0.1.0',
+29 silly addNameRange     '0.2.0' ] ]
+30 verbose addNamed [ 'httpserver', '0.2.0' ]
+31 verbose addNamed [ '0.2.0', '0.2.0' ]
+32 silly lockFile 8d1cf59d-httpserver-0-2-0 httpserver@0.2.0
+33 verbose lock httpserver@0.2.0 C:\Users\Student\AppData\Roaming\npm-cache\8d1cf59d-httpserver-0-2-0.lock
+34 silly lockFile 89c6ef0d--httpserver-httpserver-0-2-0-tgz https://registry.npmjs.org/httpserver/-/httpserver-0.2.0.tgz
+35 verbose lock https://registry.npmjs.org/httpserver/-/httpserver-0.2.0.tgz C:\Users\Student\AppData\Roaming\npm-cache\89c6ef0d--httpserver-httpserver-0-2-0-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/httpserver/-/httpserver-0.2.0.tgz',
+36 verbose addRemoteTarball   '7ba4deee49cdf81a0367d5af714a9c3e885bef86' ]
+37 info retry fetch attempt 1 at 11:19:48
+38 verbose fetch to= C:\Users\Student\AppData\Local\Temp\npm-6824-_02zzkHG\registry.npmjs.org\httpserver\-\httpserver-0.2.0.tgz
+39 http GET https://registry.npmjs.org/httpserver/-/httpserver-0.2.0.tgz
+40 http 200 https://registry.npmjs.org/httpserver/-/httpserver-0.2.0.tgz
+41 silly lockFile 89c6ef0d--httpserver-httpserver-0-2-0-tgz https://registry.npmjs.org/httpserver/-/httpserver-0.2.0.tgz
+42 silly lockFile 89c6ef0d--httpserver-httpserver-0-2-0-tgz https://registry.npmjs.org/httpserver/-/httpserver-0.2.0.tgz
+43 silly lockFile 8d1cf59d-httpserver-0-2-0 httpserver@0.2.0
+44 silly lockFile 8d1cf59d-httpserver-0-2-0 httpserver@0.2.0
+45 silly lockFile d20b802b-httpserver httpserver@
+46 silly lockFile d20b802b-httpserver httpserver@
+47 silly resolved [ { name: 'httpserver',
+47 silly resolved     version: '0.2.0',
+47 silly resolved     description: 'command line HTTP server tool for serving up local files, similar to python -mSimpleHTTPServer',
+47 silly resolved     author:
+47 silly resolved      { name: 'Dave Eddy',
+47 silly resolved        email: 'dave@daveeddy.com',
+47 silly resolved        url: 'http://www.daveeddy.com' },
+47 silly resolved     main: './httpserver.js',
+47 silly resolved     preferGlobal: true,
+47 silly resolved     bin: { httpserver: './httpserver.js' },
+47 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+47 silly resolved     repository:
+47 silly resolved      { type: 'git',
+47 silly resolved        url: 'git://github.com/bahamas10/node-httpserver.git' },
+47 silly resolved     license: 'MIT',
+47 silly resolved     dependencies:
+47 silly resolved      { 'access-log': '~0.3.5',
+47 silly resolved        'static-route': '~0.1.0',
+47 silly resolved        'posix-getopt': '~1.0.0',
+47 silly resolved        latest: '~0.1.2' },
+47 silly resolved     gitHead: '24c0c3e0f563b636af9d3d002084cd0f520f69c5',
+47 silly resolved     bugs: { url: 'https://github.com/bahamas10/node-httpserver/issues' },
+47 silly resolved     homepage: 'https://github.com/bahamas10/node-httpserver',
+47 silly resolved     _id: 'httpserver@0.2.0',
+47 silly resolved     _shasum: '7ba4deee49cdf81a0367d5af714a9c3e885bef86',
+47 silly resolved     _from: 'httpserver@',
+47 silly resolved     _npmVersion: '2.5.1',
+47 silly resolved     _nodeVersion: '0.12.0',
+47 silly resolved     _npmUser: { name: 'bahamas10', email: 'dave@daveeddy.com' },
+47 silly resolved     maintainers: [ [Object] ],
+47 silly resolved     dist:
+47 silly resolved      { shasum: '7ba4deee49cdf81a0367d5af714a9c3e885bef86',
+47 silly resolved        tarball: 'https://registry.npmjs.org/httpserver/-/httpserver-0.2.0.tgz' },
+47 silly resolved     directories: {},
+47 silly resolved     _resolved: 'https://registry.npmjs.org/httpserver/-/httpserver-0.2.0.tgz' } ]
+48 info install httpserver@0.2.0 into C:\Users\Student\AppData\Roaming\npm
+49 info installOne httpserver@0.2.0
+50 verbose node_modules\httpserver unbuild
+51 verbose tar unpack C:\Users\Student\AppData\Roaming\npm-cache\httpserver\0.2.0\package.tgz
+52 silly lockFile 5c8ed5c3-ming-npm-node-modules-httpserver tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver
+53 verbose lock tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver C:\Users\Student\AppData\Roaming\npm-cache\5c8ed5c3-ming-npm-node-modules-httpserver.lock
+54 silly lockFile c16659bb-che-httpserver-0-2-0-package-tgz tar://C:\Users\Student\AppData\Roaming\npm-cache\httpserver\0.2.0\package.tgz
+55 verbose lock tar://C:\Users\Student\AppData\Roaming\npm-cache\httpserver\0.2.0\package.tgz C:\Users\Student\AppData\Roaming\npm-cache\c16659bb-che-httpserver-0-2-0-package-tgz.lock
+56 silly gunzTarPerm modes [ '777', '666' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+59 silly gunzTarPerm extractEntry .npmignore
+60 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+61 silly gunzTarPerm extractEntry README.md
+62 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+63 silly gunzTarPerm extractEntry httpserver.js
+64 silly gunzTarPerm modified mode [ 'httpserver.js', 493, 511 ]
+65 silly gunzTarPerm extractEntry smf/manifest.xml
+66 silly gunzTarPerm modified mode [ 'smf/manifest.xml', 420, 438 ]
+67 silly lockFile 5c8ed5c3-ming-npm-node-modules-httpserver tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver
+68 silly lockFile 5c8ed5c3-ming-npm-node-modules-httpserver tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver
+69 silly lockFile c16659bb-che-httpserver-0-2-0-package-tgz tar://C:\Users\Student\AppData\Roaming\npm-cache\httpserver\0.2.0\package.tgz
+70 silly lockFile c16659bb-che-httpserver-0-2-0-package-tgz tar://C:\Users\Student\AppData\Roaming\npm-cache\httpserver\0.2.0\package.tgz
+71 info preinstall httpserver@0.2.0
+72 verbose readDependencies using package.json deps
+73 verbose readDependencies using package.json deps
+74 verbose cache add [ 'access-log@~0.3.5', null ]
+75 verbose cache add name=undefined spec="access-log@~0.3.5" args=["access-log@~0.3.5",null]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: 'access-log@~0.3.5',
+76 verbose parsed url   path: 'access-log@~0.3.5',
+76 verbose parsed url   href: 'access-log@~0.3.5' }
+77 verbose cache add [ 'static-route@~0.1.0', null ]
+78 verbose cache add name=undefined spec="static-route@~0.1.0" args=["static-route@~0.1.0",null]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: 'static-route@~0.1.0',
+79 verbose parsed url   path: 'static-route@~0.1.0',
+79 verbose parsed url   href: 'static-route@~0.1.0' }
+80 verbose cache add [ 'posix-getopt@~1.0.0', null ]
+81 verbose cache add name=undefined spec="posix-getopt@~1.0.0" args=["posix-getopt@~1.0.0",null]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: 'posix-getopt@~1.0.0',
+82 verbose parsed url   path: 'posix-getopt@~1.0.0',
+82 verbose parsed url   href: 'posix-getopt@~1.0.0' }
+83 verbose cache add [ 'latest@~0.1.2', null ]
+84 verbose cache add name=undefined spec="latest@~0.1.2" args=["latest@~0.1.2",null]
+85 verbose parsed url { protocol: null,
+85 verbose parsed url   slashes: null,
+85 verbose parsed url   auth: null,
+85 verbose parsed url   host: null,
+85 verbose parsed url   port: null,
+85 verbose parsed url   hostname: null,
+85 verbose parsed url   hash: null,
+85 verbose parsed url   search: null,
+85 verbose parsed url   query: null,
+85 verbose parsed url   pathname: 'latest@~0.1.2',
+85 verbose parsed url   path: 'latest@~0.1.2',
+85 verbose parsed url   href: 'latest@~0.1.2' }
+86 verbose cache add name="access-log" spec="~0.3.5" args=["access-log","~0.3.5"]
+87 verbose parsed url { protocol: null,
+87 verbose parsed url   slashes: null,
+87 verbose parsed url   auth: null,
+87 verbose parsed url   host: null,
+87 verbose parsed url   port: null,
+87 verbose parsed url   hostname: null,
+87 verbose parsed url   hash: null,
+87 verbose parsed url   search: null,
+87 verbose parsed url   query: null,
+87 verbose parsed url   pathname: '~0.3.5',
+87 verbose parsed url   path: '~0.3.5',
+87 verbose parsed url   href: '~0.3.5' }
+88 verbose addNamed [ 'access-log', '~0.3.5' ]
+89 verbose addNamed [ null, '>=0.3.5-0 <0.4.0-0' ]
+90 silly lockFile 6613725a-access-log-0-3-5 access-log@~0.3.5
+91 verbose lock access-log@~0.3.5 C:\Users\Student\AppData\Roaming\npm-cache\6613725a-access-log-0-3-5.lock
+92 verbose cache add name="static-route" spec="~0.1.0" args=["static-route","~0.1.0"]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: '~0.1.0',
+93 verbose parsed url   path: '~0.1.0',
+93 verbose parsed url   href: '~0.1.0' }
+94 verbose addNamed [ 'static-route', '~0.1.0' ]
+95 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+96 silly lockFile 98e34c0a-static-route-0-1-0 static-route@~0.1.0
+97 verbose lock static-route@~0.1.0 C:\Users\Student\AppData\Roaming\npm-cache\98e34c0a-static-route-0-1-0.lock
+98 verbose cache add name="posix-getopt" spec="~1.0.0" args=["posix-getopt","~1.0.0"]
+99 verbose parsed url { protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: '~1.0.0',
+99 verbose parsed url   path: '~1.0.0',
+99 verbose parsed url   href: '~1.0.0' }
+100 verbose addNamed [ 'posix-getopt', '~1.0.0' ]
+101 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+102 silly lockFile ab8d96c4-posix-getopt-1-0-0 posix-getopt@~1.0.0
+103 verbose lock posix-getopt@~1.0.0 C:\Users\Student\AppData\Roaming\npm-cache\ab8d96c4-posix-getopt-1-0-0.lock
+104 verbose cache add name="latest" spec="~0.1.2" args=["latest","~0.1.2"]
+105 verbose parsed url { protocol: null,
+105 verbose parsed url   slashes: null,
+105 verbose parsed url   auth: null,
+105 verbose parsed url   host: null,
+105 verbose parsed url   port: null,
+105 verbose parsed url   hostname: null,
+105 verbose parsed url   hash: null,
+105 verbose parsed url   search: null,
+105 verbose parsed url   query: null,
+105 verbose parsed url   pathname: '~0.1.2',
+105 verbose parsed url   path: '~0.1.2',
+105 verbose parsed url   href: '~0.1.2' }
+106 verbose addNamed [ 'latest', '~0.1.2' ]
+107 verbose addNamed [ null, '>=0.1.2-0 <0.2.0-0' ]
+108 silly lockFile da829d0a-latest-0-1-2 latest@~0.1.2
+109 verbose lock latest@~0.1.2 C:\Users\Student\AppData\Roaming\npm-cache\da829d0a-latest-0-1-2.lock
+110 silly addNameRange { name: 'static-route',
+110 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+110 silly addNameRange   hasData: false }
+111 silly addNameRange { name: 'access-log',
+111 silly addNameRange   range: '>=0.3.5-0 <0.4.0-0',
+111 silly addNameRange   hasData: false }
+112 silly addNameRange { name: 'posix-getopt',
+112 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+112 silly addNameRange   hasData: false }
+113 verbose request where is /static-route
+114 verbose request registry https://registry.npmjs.org/
+115 verbose url raw /static-route
+116 verbose url resolving [ 'https://registry.npmjs.org/', './static-route' ]
+117 verbose url resolved https://registry.npmjs.org/static-route
+118 verbose request where is https://registry.npmjs.org/static-route
+119 info trying registry request attempt 1 at 11:19:49
+120 http GET https://registry.npmjs.org/static-route
+121 verbose request where is /access-log
+122 verbose request registry https://registry.npmjs.org/
+123 verbose url raw /access-log
+124 verbose url resolving [ 'https://registry.npmjs.org/', './access-log' ]
+125 verbose url resolved https://registry.npmjs.org/access-log
+126 verbose request where is https://registry.npmjs.org/access-log
+127 info trying registry request attempt 1 at 11:19:49
+128 http GET https://registry.npmjs.org/access-log
+129 verbose request where is /posix-getopt
+130 verbose request registry https://registry.npmjs.org/
+131 verbose url raw /posix-getopt
+132 verbose url resolving [ 'https://registry.npmjs.org/', './posix-getopt' ]
+133 verbose url resolved https://registry.npmjs.org/posix-getopt
+134 verbose request where is https://registry.npmjs.org/posix-getopt
+135 info trying registry request attempt 1 at 11:19:49
+136 http GET https://registry.npmjs.org/posix-getopt
+137 silly addNameRange { name: 'latest', range: '>=0.1.2-0 <0.2.0-0', hasData: false }
+138 verbose request where is /latest
+139 verbose request registry https://registry.npmjs.org/
+140 verbose url raw /latest
+141 verbose url resolving [ 'https://registry.npmjs.org/', './latest' ]
+142 verbose url resolved https://registry.npmjs.org/latest
+143 verbose request where is https://registry.npmjs.org/latest
+144 info trying registry request attempt 1 at 11:19:49
+145 http GET https://registry.npmjs.org/latest
+146 http 200 https://registry.npmjs.org/posix-getopt
+147 silly registry.get cb [ 200,
+147 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+147 silly registry.get     etag: '"AT2OFME4BRGNYXG8IUOY5UIUI"',
+147 silly registry.get     'content-type': 'application/json',
+147 silly registry.get     'content-encoding': 'gzip',
+147 silly registry.get     'cache-control': 'max-age=300',
+147 silly registry.get     'content-length': '4926',
+147 silly registry.get     'accept-ranges': 'bytes',
+147 silly registry.get     date: 'Tue, 06 Sep 2016 08:15:33 GMT',
+147 silly registry.get     via: '1.1 varnish',
+147 silly registry.get     age: '212',
+147 silly registry.get     connection: 'keep-alive',
+147 silly registry.get     'x-served-by': 'cache-dfw1829-DFW',
+147 silly registry.get     'x-cache': 'HIT',
+147 silly registry.get     'x-cache-hits': '1',
+147 silly registry.get     'x-timer': 'S1473149733.078085,VS0,VE0',
+147 silly registry.get     vary: 'Accept-Encoding' } ]
+148 silly addNameRange number 2 { name: 'posix-getopt',
+148 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+148 silly addNameRange   hasData: true }
+149 silly addNameRange versions [ 'posix-getopt', [ '0.0.1', '1.0.0', '1.1.0', '1.2.0' ] ]
+150 verbose addNamed [ 'posix-getopt', '1.0.0' ]
+151 verbose addNamed [ '1.0.0', '1.0.0' ]
+152 silly lockFile 7655f625-posix-getopt-1-0-0 posix-getopt@1.0.0
+153 verbose lock posix-getopt@1.0.0 C:\Users\Student\AppData\Roaming\npm-cache\7655f625-posix-getopt-1-0-0.lock
+154 silly lockFile ae6d1290-ix-getopt-posix-getopt-1-0-0-tgz https://registry.npmjs.org/posix-getopt/-/posix-getopt-1.0.0.tgz
+155 verbose lock https://registry.npmjs.org/posix-getopt/-/posix-getopt-1.0.0.tgz C:\Users\Student\AppData\Roaming\npm-cache\ae6d1290-ix-getopt-posix-getopt-1-0-0-tgz.lock
+156 verbose addRemoteTarball [ 'https://registry.npmjs.org/posix-getopt/-/posix-getopt-1.0.0.tgz',
+156 verbose addRemoteTarball   '42a90eca6119014c78bc4b9b70463d294db1aa87' ]
+157 info retry fetch attempt 1 at 11:19:50
+158 verbose fetch to= C:\Users\Student\AppData\Local\Temp\npm-6824-_02zzkHG\registry.npmjs.org\posix-getopt\-\posix-getopt-1.0.0.tgz
+159 http GET https://registry.npmjs.org/posix-getopt/-/posix-getopt-1.0.0.tgz
+160 http 200 https://registry.npmjs.org/access-log
+161 silly registry.get cb [ 200,
+161 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+161 silly registry.get     etag: '"63IPTWYAYIAB74D2N9HWRCIVC"',
+161 silly registry.get     'content-type': 'application/json',
+161 silly registry.get     'content-encoding': 'gzip',
+161 silly registry.get     'cache-control': 'max-age=300',
+161 silly registry.get     'content-length': '3329',
+161 silly registry.get     'accept-ranges': 'bytes',
+161 silly registry.get     date: 'Tue, 06 Sep 2016 08:15:33 GMT',
+161 silly registry.get     via: '1.1 varnish',
+161 silly registry.get     age: '0',
+161 silly registry.get     connection: 'keep-alive',
+161 silly registry.get     'x-served-by': 'cache-dfw1823-DFW',
+161 silly registry.get     'x-cache': 'MISS',
+161 silly registry.get     'x-cache-hits': '0',
+161 silly registry.get     'x-timer': 'S1473149733.070609,VS0,VE274',
+161 silly registry.get     vary: 'Accept-Encoding' } ]
+162 silly addNameRange number 2 { name: 'access-log',
+162 silly addNameRange   range: '>=0.3.5-0 <0.4.0-0',
+162 silly addNameRange   hasData: true }
+163 silly addNameRange versions [ 'access-log',
+163 silly addNameRange   [ '0.0.0',
+163 silly addNameRange     '0.0.1',
+163 silly addNameRange     '0.1.0',
+163 silly addNameRange     '0.1.1',
+163 silly addNameRange     '0.1.2',
+163 silly addNameRange     '0.2.0',
+163 silly addNameRange     '0.2.1',
+163 silly addNameRange     '0.2.2',
+163 silly addNameRange     '0.2.3',
+163 silly addNameRange     '0.3.0',
+163 silly addNameRange     '0.3.1',
+163 silly addNameRange     '0.3.2',
+163 silly addNameRange     '0.3.3',
+163 silly addNameRange     '0.3.4',
+163 silly addNameRange     '0.3.5',
+163 silly addNameRange     '0.3.8',
+163 silly addNameRange     '0.3.9' ] ]
+164 verbose addNamed [ 'access-log', '0.3.9' ]
+165 verbose addNamed [ '0.3.9', '0.3.9' ]
+166 silly lockFile 2ef3e59a-access-log-0-3-9 access-log@0.3.9
+167 verbose lock access-log@0.3.9 C:\Users\Student\AppData\Roaming\npm-cache\2ef3e59a-access-log-0-3-9.lock
+168 silly lockFile 7bcbaa08--access-log-access-log-0-3-9-tgz https://registry.npmjs.org/access-log/-/access-log-0.3.9.tgz
+169 verbose lock https://registry.npmjs.org/access-log/-/access-log-0.3.9.tgz C:\Users\Student\AppData\Roaming\npm-cache\7bcbaa08--access-log-access-log-0-3-9-tgz.lock
+170 verbose addRemoteTarball [ 'https://registry.npmjs.org/access-log/-/access-log-0.3.9.tgz',
+170 verbose addRemoteTarball   '01c2695ba7e7d32db5288ef3f14e64d6719f3ad1' ]
+171 http 200 https://registry.npmjs.org/latest
+172 silly registry.get cb [ 200,
+172 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+172 silly registry.get     etag: '"7FVA2OCH9CTNJTDZ0ZNR7NRME"',
+172 silly registry.get     'content-type': 'application/json',
+172 silly registry.get     'content-encoding': 'gzip',
+172 silly registry.get     'cache-control': 'max-age=300',
+172 silly registry.get     'content-length': '1905',
+172 silly registry.get     'accept-ranges': 'bytes',
+172 silly registry.get     date: 'Tue, 06 Sep 2016 08:15:33 GMT',
+172 silly registry.get     via: '1.1 varnish',
+172 silly registry.get     age: '0',
+172 silly registry.get     connection: 'keep-alive',
+172 silly registry.get     'x-served-by': 'cache-dfw1848-DFW',
+172 silly registry.get     'x-cache': 'MISS',
+172 silly registry.get     'x-cache-hits': '0',
+172 silly registry.get     'x-timer': 'S1473149733.089644,VS0,VE282',
+172 silly registry.get     vary: 'Accept-Encoding' } ]
+173 info retry fetch attempt 1 at 11:19:50
+174 verbose fetch to= C:\Users\Student\AppData\Local\Temp\npm-6824-_02zzkHG\registry.npmjs.org\access-log\-\access-log-0.3.9.tgz
+175 http GET https://registry.npmjs.org/access-log/-/access-log-0.3.9.tgz
+176 http 200 https://registry.npmjs.org/static-route
+177 silly registry.get cb [ 200,
+177 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+177 silly registry.get     etag: '"5Z9SOXIFWLF46LLGHXF5EHOE4"',
+177 silly registry.get     'content-type': 'application/json',
+177 silly registry.get     'content-encoding': 'gzip',
+177 silly registry.get     'cache-control': 'max-age=300',
+177 silly registry.get     'content-length': '4207',
+177 silly registry.get     'accept-ranges': 'bytes',
+177 silly registry.get     date: 'Tue, 06 Sep 2016 08:15:33 GMT',
+177 silly registry.get     via: '1.1 varnish',
+177 silly registry.get     age: '0',
+177 silly registry.get     connection: 'keep-alive',
+177 silly registry.get     'x-served-by': 'cache-dfw1828-DFW',
+177 silly registry.get     'x-cache': 'MISS',
+177 silly registry.get     'x-cache-hits': '0',
+177 silly registry.get     'x-timer': 'S1473149733.060212,VS0,VE331',
+177 silly registry.get     vary: 'Accept-Encoding' } ]
+178 silly addNameRange number 2 { name: 'latest', range: '>=0.1.2-0 <0.2.0-0', hasData: true }
+179 silly addNameRange versions [ 'latest',
+179 silly addNameRange   [ '0.0.0', '0.0.1', '0.1.0', '0.1.1', '0.1.2', '0.2.0' ] ]
+180 verbose addNamed [ 'latest', '0.1.2' ]
+181 verbose addNamed [ '0.1.2', '0.1.2' ]
+182 silly lockFile e33ea28a-latest-0-1-2 latest@0.1.2
+183 verbose lock latest@0.1.2 C:\Users\Student\AppData\Roaming\npm-cache\e33ea28a-latest-0-1-2.lock
+184 silly lockFile 85b3e3a2-pmjs-org-latest-latest-0-1-2-tgz https://registry.npmjs.org/latest/-/latest-0.1.2.tgz
+185 verbose lock https://registry.npmjs.org/latest/-/latest-0.1.2.tgz C:\Users\Student\AppData\Roaming\npm-cache\85b3e3a2-pmjs-org-latest-latest-0-1-2-tgz.lock
+186 verbose addRemoteTarball [ 'https://registry.npmjs.org/latest/-/latest-0.1.2.tgz',
+186 verbose addRemoteTarball   'ee17a266aa3cf6ef775c09cd2d82504e38b2e4e3' ]
+187 silly addNameRange number 2 { name: 'static-route',
+187 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+187 silly addNameRange   hasData: true }
+188 silly addNameRange versions [ 'static-route',
+188 silly addNameRange   [ '0.0.0',
+188 silly addNameRange     '0.0.1',
+188 silly addNameRange     '0.0.2',
+188 silly addNameRange     '0.0.3',
+188 silly addNameRange     '0.0.4',
+188 silly addNameRange     '0.0.5',
+188 silly addNameRange     '0.0.6',
+188 silly addNameRange     '0.0.7',
+188 silly addNameRange     '0.0.8',
+188 silly addNameRange     '0.0.9',
+188 silly addNameRange     '0.0.10',
+188 silly addNameRange     '0.0.11',
+188 silly addNameRange     '0.0.12',
+188 silly addNameRange     '0.1.0',
+188 silly addNameRange     '0.1.1' ] ]
+189 verbose addNamed [ 'static-route', '0.1.1' ]
+190 verbose addNamed [ '0.1.1', '0.1.1' ]
+191 silly lockFile 22fd06cf-static-route-0-1-1 static-route@0.1.1
+192 verbose lock static-route@0.1.1 C:\Users\Student\AppData\Roaming\npm-cache\22fd06cf-static-route-0-1-1.lock
+193 info retry fetch attempt 1 at 11:19:50
+194 verbose fetch to= C:\Users\Student\AppData\Local\Temp\npm-6824-_02zzkHG\registry.npmjs.org\latest\-\latest-0.1.2.tgz
+195 http GET https://registry.npmjs.org/latest/-/latest-0.1.2.tgz
+196 silly lockFile 238c90c8-tic-route-static-route-0-1-1-tgz https://registry.npmjs.org/static-route/-/static-route-0.1.1.tgz
+197 verbose lock https://registry.npmjs.org/static-route/-/static-route-0.1.1.tgz C:\Users\Student\AppData\Roaming\npm-cache\238c90c8-tic-route-static-route-0-1-1-tgz.lock
+198 verbose addRemoteTarball [ 'https://registry.npmjs.org/static-route/-/static-route-0.1.1.tgz',
+198 verbose addRemoteTarball   'b095c0a0452fc90e88d0728e57111c6e92763fd2' ]
+199 info retry fetch attempt 1 at 11:19:50
+200 verbose fetch to= C:\Users\Student\AppData\Local\Temp\npm-6824-_02zzkHG\registry.npmjs.org\static-route\-\static-route-0.1.1.tgz
+201 http GET https://registry.npmjs.org/static-route/-/static-route-0.1.1.tgz
+202 http 200 https://registry.npmjs.org/posix-getopt/-/posix-getopt-1.0.0.tgz
+203 silly lockFile ae6d1290-ix-getopt-posix-getopt-1-0-0-tgz https://registry.npmjs.org/posix-getopt/-/posix-getopt-1.0.0.tgz
+204 silly lockFile ae6d1290-ix-getopt-posix-getopt-1-0-0-tgz https://registry.npmjs.org/posix-getopt/-/posix-getopt-1.0.0.tgz
+205 silly lockFile 7655f625-posix-getopt-1-0-0 posix-getopt@1.0.0
+206 silly lockFile 7655f625-posix-getopt-1-0-0 posix-getopt@1.0.0
+207 silly lockFile ab8d96c4-posix-getopt-1-0-0 posix-getopt@~1.0.0
+208 silly lockFile ab8d96c4-posix-getopt-1-0-0 posix-getopt@~1.0.0
+209 http 200 https://registry.npmjs.org/access-log/-/access-log-0.3.9.tgz
+210 silly lockFile 7bcbaa08--access-log-access-log-0-3-9-tgz https://registry.npmjs.org/access-log/-/access-log-0.3.9.tgz
+211 silly lockFile 7bcbaa08--access-log-access-log-0-3-9-tgz https://registry.npmjs.org/access-log/-/access-log-0.3.9.tgz
+212 silly lockFile 2ef3e59a-access-log-0-3-9 access-log@0.3.9
+213 silly lockFile 2ef3e59a-access-log-0-3-9 access-log@0.3.9
+214 silly lockFile 6613725a-access-log-0-3-5 access-log@~0.3.5
+215 silly lockFile 6613725a-access-log-0-3-5 access-log@~0.3.5
+216 http 200 https://registry.npmjs.org/latest/-/latest-0.1.2.tgz
+217 silly lockFile 85b3e3a2-pmjs-org-latest-latest-0-1-2-tgz https://registry.npmjs.org/latest/-/latest-0.1.2.tgz
+218 silly lockFile 85b3e3a2-pmjs-org-latest-latest-0-1-2-tgz https://registry.npmjs.org/latest/-/latest-0.1.2.tgz
+219 silly lockFile e33ea28a-latest-0-1-2 latest@0.1.2
+220 silly lockFile e33ea28a-latest-0-1-2 latest@0.1.2
+221 silly lockFile da829d0a-latest-0-1-2 latest@~0.1.2
+222 silly lockFile da829d0a-latest-0-1-2 latest@~0.1.2
+223 http 200 https://registry.npmjs.org/static-route/-/static-route-0.1.1.tgz
+224 silly lockFile 238c90c8-tic-route-static-route-0-1-1-tgz https://registry.npmjs.org/static-route/-/static-route-0.1.1.tgz
+225 silly lockFile 238c90c8-tic-route-static-route-0-1-1-tgz https://registry.npmjs.org/static-route/-/static-route-0.1.1.tgz
+226 silly lockFile 22fd06cf-static-route-0-1-1 static-route@0.1.1
+227 silly lockFile 22fd06cf-static-route-0-1-1 static-route@0.1.1
+228 silly lockFile 98e34c0a-static-route-0-1-0 static-route@~0.1.0
+229 silly lockFile 98e34c0a-static-route-0-1-0 static-route@~0.1.0
+230 silly resolved [ { name: 'posix-getopt',
+230 silly resolved     version: '1.0.0',
+230 silly resolved     description: 'POSIX-style getopt()',
+230 silly resolved     author: { name: 'Dave Pacheco', url: 'dap@cs.brown.edu' },
+230 silly resolved     engines: { node: '*' },
+230 silly resolved     main: './lib/getopt',
+230 silly resolved     _npmUser: { name: 'dap', email: 'dap@cs.brown.edu' },
+230 silly resolved     _id: 'posix-getopt@1.0.0',
+230 silly resolved     dependencies: {},
+230 silly resolved     devDependencies: {},
+230 silly resolved     optionalDependencies: {},
+230 silly resolved     _engineSupported: true,
+230 silly resolved     _npmVersion: '1.1.24',
+230 silly resolved     _nodeVersion: 'v0.6.19',
+230 silly resolved     _defaultsLoaded: true,
+230 silly resolved     dist:
+230 silly resolved      { shasum: '42a90eca6119014c78bc4b9b70463d294db1aa87',
+230 silly resolved        tarball: 'https://registry.npmjs.org/posix-getopt/-/posix-getopt-1.0.0.tgz' },
+230 silly resolved     maintainers: [ [Object] ],
+230 silly resolved     directories: {},
+230 silly resolved     _shasum: '42a90eca6119014c78bc4b9b70463d294db1aa87',
+230 silly resolved     _from: 'posix-getopt@~1.0.0',
+230 silly resolved     _resolved: 'https://registry.npmjs.org/posix-getopt/-/posix-getopt-1.0.0.tgz' },
+230 silly resolved   { name: 'access-log',
+230 silly resolved     description: 'Add simple access logs to any http or https server',
+230 silly resolved     version: '0.3.9',
+230 silly resolved     author:
+230 silly resolved      { name: 'Dave Eddy',
+230 silly resolved        email: 'dave@daveeddy.com',
+230 silly resolved        url: 'http://www.daveeddy.com' },
+230 silly resolved     contributors: [],
+230 silly resolved     repository:
+230 silly resolved      { type: 'git',
+230 silly resolved        url: 'git://github.com/bahamas10/node-access-log.git' },
+230 silly resolved     scripts: { test: 'for f in test/*; do echo "\n$f"; node "$f" || exit 1; done; echo Passed; exit 0' },
+230 silly resolved     main: './index.js',
+230 silly resolved     dependencies: { strftime: '~0.6.2' },
+230 silly resolved     bin: {},
+230 silly resolved     devDependencies: {},
+230 silly resolved     optionalDependencies: {},
+230 silly resolved     engines: { node: '*' },
+230 silly resolved     keywords: [ 'access', 'apache', 'clf', 'logs' ],
+230 silly resolved     bugs: { url: 'https://github.com/bahamas10/node-access-log/issues' },
+230 silly resolved     homepage: 'https://github.com/bahamas10/node-access-log',
+230 silly resolved     _id: 'access-log@0.3.9',
+230 silly resolved     dist:
+230 silly resolved      { shasum: '01c2695ba7e7d32db5288ef3f14e64d6719f3ad1',
+230 silly resolved        tarball: 'https://registry.npmjs.org/access-log/-/access-log-0.3.9.tgz' },
+230 silly resolved     _from: 'access-log@~0.3.5',
+230 silly resolved     _npmVersion: '1.4.4',
+230 silly resolved     _npmUser: { name: 'bahamas10', email: 'dave@daveeddy.com' },
+230 silly resolved     maintainers: [ [Object] ],
+230 silly resolved     directories: {},
+230 silly resolved     _shasum: '01c2695ba7e7d32db5288ef3f14e64d6719f3ad1',
+230 silly resolved     _resolved: 'https://registry.npmjs.org/access-log/-/access-log-0.3.9.tgz' },
+230 silly resolved   { name: 'latest',
+230 silly resolved     description: 'Determine the latest available version of a package in npm',
+230 silly resolved     version: '0.1.2',
+230 silly resolved     author:
+230 silly resolved      { name: 'Dave Eddy',
+230 silly resolved        email: 'dave@daveeddy.com',
+230 silly resolved        url: 'http://www.daveeddy.com' },
+230 silly resolved     contributors: [ [Object] ],
+230 silly resolved     repository:
+230 silly resolved      { type: 'git',
+230 silly resolved        url: 'git://github.com/bahamas10/node-latest.git' },
+230 silly resolved     scripts: { test: 'node tests/test.js' },
+230 silly resolved     dependencies: { npm: '~1.3.4' },
+230 silly resolved     devDependencies: {},
+230 silly resolved     optionalDependencies: {},
+230 silly resolved     engines: { node: '*' },
+230 silly resolved     keywords: [ 'latest', 'npm', 'version', 'up-to-date' ],
+230 silly resolved     bugs: { url: 'https://github.com/bahamas10/node-latest/issues' },
+230 silly resolved     _id: 'latest@0.1.2',
+230 silly resolved     dist:
+230 silly resolved      { shasum: 'ee17a266aa3cf6ef775c09cd2d82504e38b2e4e3',
+230 silly resolved        tarball: 'https://registry.npmjs.org/latest/-/latest-0.1.2.tgz' },
+230 silly resolved     _from: 'latest@~0.1.2',
+230 silly resolved     _npmVersion: '1.3.1',
+230 silly resolved     _npmUser: { name: 'bahamas10', email: 'dave@daveeddy.com' },
+230 silly resolved     maintainers: [ [Object] ],
+230 silly resolved     directories: {},
+230 silly resolved     _shasum: 'ee17a266aa3cf6ef775c09cd2d82504e38b2e4e3',
+230 silly resolved     _resolved: 'https://registry.npmjs.org/latest/-/latest-0.1.2.tgz' },
+230 silly resolved   { name: 'static-route',
+230 silly resolved     version: '0.1.1',
+230 silly resolved     description: 'A route for an http server to safely serve static files',
+230 silly resolved     author:
+230 silly resolved      { name: 'Dave Eddy',
+230 silly resolved        email: 'dave@daveeddy.com',
+230 silly resolved        url: 'http://www.daveeddy.com' },
+230 silly resolved     main: './static-route.js',
+230 silly resolved     scripts: { test: 'for f in test/*.js; do echo "$f"; node "$f" || exit 1; echo; done; echo; echo Passed; exit 0' },
+230 silly resolved     repository:
+230 silly resolved      { type: 'git',
+230 silly resolved        url: 'git://github.com/bahamas10/node-static-route.git' },
+230 silly resolved     license: 'MIT',
+230 silly resolved     dependencies: { mime: '~1.2.9', easyreq: '~0.1.0', he: '~0.4.1' },
+230 silly resolved     bugs: { url: 'https://github.com/bahamas10/node-static-route/issues' },
+230 silly resolved     homepage: 'https://github.com/bahamas10/node-static-route',
+230 silly resolved     _id: 'static-route@0.1.1',
+230 silly resolved     dist:
+230 silly resolved      { shasum: 'b095c0a0452fc90e88d0728e57111c6e92763fd2',
+230 silly resolved        tarball: 'https://registry.npmjs.org/static-route/-/static-route-0.1.1.tgz' },
+230 silly resolved     _from: 'static-route@~0.1.0',
+230 silly resolved     _npmVersion: '1.4.4',
+230 silly resolved     _npmUser: { name: 'bahamas10', email: 'dave@daveeddy.com' },
+230 silly resolved     maintainers: [ [Object] ],
+230 silly resolved     directories: {},
+230 silly resolved     _shasum: 'b095c0a0452fc90e88d0728e57111c6e92763fd2',
+230 silly resolved     _resolved: 'https://registry.npmjs.org/static-route/-/static-route-0.1.1.tgz' } ]
+231 info install posix-getopt@1.0.0 into C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver
+232 info install access-log@0.3.9 into C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver
+233 info install latest@0.1.2 into C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver
+234 info install static-route@0.1.1 into C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver
+235 info installOne posix-getopt@1.0.0
+236 info installOne access-log@0.3.9
+237 info installOne latest@0.1.2
+238 info installOne static-route@0.1.1
+239 verbose node_modules\httpserver\node_modules\latest unbuild
+240 verbose node_modules\httpserver\node_modules\access-log unbuild
+241 verbose node_modules\httpserver\node_modules\static-route unbuild
+242 verbose tar unpack C:\Users\Student\AppData\Roaming\npm-cache\latest\0.1.2\package.tgz
+243 silly lockFile 1526b25e-s-httpserver-node-modules-latest tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\latest
+244 verbose lock tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\latest C:\Users\Student\AppData\Roaming\npm-cache\1526b25e-s-httpserver-node-modules-latest.lock
+245 silly lockFile b9fd5cbb-m-cache-latest-0-1-2-package-tgz tar://C:\Users\Student\AppData\Roaming\npm-cache\latest\0.1.2\package.tgz
+246 verbose lock tar://C:\Users\Student\AppData\Roaming\npm-cache\latest\0.1.2\package.tgz C:\Users\Student\AppData\Roaming\npm-cache\b9fd5cbb-m-cache-latest-0-1-2-package-tgz.lock
+247 verbose tar unpack C:\Users\Student\AppData\Roaming\npm-cache\access-log\0.3.9\package.tgz
+248 silly lockFile 85f25caa-tpserver-node-modules-access-log tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\access-log
+249 verbose lock tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\access-log C:\Users\Student\AppData\Roaming\npm-cache\85f25caa-tpserver-node-modules-access-log.lock
+250 silly lockFile ba501928-che-access-log-0-3-9-package-tgz tar://C:\Users\Student\AppData\Roaming\npm-cache\access-log\0.3.9\package.tgz
+251 verbose lock tar://C:\Users\Student\AppData\Roaming\npm-cache\access-log\0.3.9\package.tgz C:\Users\Student\AppData\Roaming\npm-cache\ba501928-che-access-log-0-3-9-package-tgz.lock
+252 verbose tar unpack C:\Users\Student\AppData\Roaming\npm-cache\static-route\0.1.1\package.tgz
+253 silly lockFile 4acc324c-server-node-modules-static-route tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\static-route
+254 verbose lock tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\static-route C:\Users\Student\AppData\Roaming\npm-cache\4acc324c-server-node-modules-static-route.lock
+255 silly lockFile 9045ce31-e-static-route-0-1-1-package-tgz tar://C:\Users\Student\AppData\Roaming\npm-cache\static-route\0.1.1\package.tgz
+256 verbose lock tar://C:\Users\Student\AppData\Roaming\npm-cache\static-route\0.1.1\package.tgz C:\Users\Student\AppData\Roaming\npm-cache\9045ce31-e-static-route-0-1-1-package-tgz.lock
+257 silly gunzTarPerm modes [ '777', '666' ]
+258 silly gunzTarPerm modes [ '777', '666' ]
+259 verbose node_modules\httpserver\node_modules\posix-getopt unbuild
+260 silly gunzTarPerm modes [ '777', '666' ]
+261 verbose tar unpack C:\Users\Student\AppData\Roaming\npm-cache\posix-getopt\1.0.0\package.tgz
+262 silly lockFile ad32d773-server-node-modules-posix-getopt tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\posix-getopt
+263 verbose lock tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\posix-getopt C:\Users\Student\AppData\Roaming\npm-cache\ad32d773-server-node-modules-posix-getopt.lock
+264 silly lockFile 43332043-e-posix-getopt-1-0-0-package-tgz tar://C:\Users\Student\AppData\Roaming\npm-cache\posix-getopt\1.0.0\package.tgz
+265 verbose lock tar://C:\Users\Student\AppData\Roaming\npm-cache\posix-getopt\1.0.0\package.tgz C:\Users\Student\AppData\Roaming\npm-cache\43332043-e-posix-getopt-1-0-0-package-tgz.lock
+266 silly gunzTarPerm extractEntry package.json
+267 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+268 silly gunzTarPerm extractEntry package.json
+269 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+270 silly gunzTarPerm modes [ '777', '666' ]
+271 silly gunzTarPerm extractEntry package.json
+272 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+273 silly gunzTarPerm extractEntry .npmignore
+274 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+275 silly gunzTarPerm extractEntry README.md
+276 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+277 silly gunzTarPerm extractEntry .npmignore
+278 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+279 silly gunzTarPerm extractEntry README.md
+280 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+281 silly gunzTarPerm extractEntry .npmignore
+282 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+283 silly gunzTarPerm extractEntry README.md
+284 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+285 silly gunzTarPerm extractEntry package.json
+286 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+287 silly gunzTarPerm extractEntry README.md
+288 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+289 silly gunzTarPerm extractEntry LICENSE
+290 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+291 silly gunzTarPerm extractEntry static-route.js
+292 silly gunzTarPerm modified mode [ 'static-route.js', 420, 438 ]
+293 silly gunzTarPerm extractEntry examples/simple.js
+294 silly gunzTarPerm modified mode [ 'examples/simple.js', 420, 438 ]
+295 silly gunzTarPerm extractEntry test/weird.js
+296 silly gunzTarPerm modified mode [ 'test/weird.js', 420, 438 ]
+297 silly gunzTarPerm extractEntry test/dir-fail.js
+298 silly gunzTarPerm modified mode [ 'test/dir-fail.js', 420, 438 ]
+299 silly gunzTarPerm extractEntry test/dir-success.js
+300 silly gunzTarPerm modified mode [ 'test/dir-success.js', 420, 438 ]
+301 silly gunzTarPerm extractEntry test/range-fail.js
+302 silly gunzTarPerm modified mode [ 'test/range-fail.js', 420, 438 ]
+303 silly gunzTarPerm extractEntry test/range-good.js
+304 silly gunzTarPerm modified mode [ 'test/range-good.js', 420, 438 ]
+305 silly gunzTarPerm extractEntry test/assets.js
+306 silly gunzTarPerm modified mode [ 'test/assets.js', 420, 438 ]
+307 silly gunzTarPerm extractEntry test/simple.js
+308 silly gunzTarPerm modified mode [ 'test/simple.js', 420, 438 ]
+309 silly gunzTarPerm extractEntry test/traversal.js
+310 silly gunzTarPerm modified mode [ 'test/traversal.js', 420, 438 ]
+311 silly gunzTarPerm extractEntry test/try-files.js
+312 silly gunzTarPerm modified mode [ 'test/try-files.js', 420, 438 ]
+313 silly gunzTarPerm extractEntry test/root.js
+314 silly gunzTarPerm modified mode [ 'test/root.js', 420, 438 ]
+315 silly gunzTarPerm extractEntry test/weird filename$?..
+315 silly gunzTarPerm newline
+316 silly gunzTarPerm modified mode [ 'test/weird filename$?..\nnewline', 420, 438 ]
+317 silly gunzTarPerm extractEntry test/assets/file.txt
+318 silly gunzTarPerm modified mode [ 'test/assets/file.txt', 420, 438 ]
+319 silly gunzTarPerm extractEntry index.js
+320 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+321 silly gunzTarPerm extractEntry tests/latest.js
+322 silly gunzTarPerm modified mode [ 'tests/latest.js', 420, 438 ]
+323 silly gunzTarPerm extractEntry examples/basic.js
+324 silly gunzTarPerm modified mode [ 'examples/basic.js', 420, 438 ]
+325 silly gunzTarPerm extractEntry examples/examples.js
+326 silly gunzTarPerm modified mode [ 'examples/examples.js', 420, 438 ]
+327 silly gunzTarPerm extractEntry tests/test-getopt.js
+328 silly gunzTarPerm modified mode [ 'tests/test-getopt.js', 420, 438 ]
+329 silly gunzTarPerm extractEntry tests/test-tokenize-optstr.js
+330 silly gunzTarPerm modified mode [ 'tests/test-tokenize-optstr.js', 420, 438 ]
+331 silly gunzTarPerm extractEntry lib/getopt.js
+332 silly gunzTarPerm modified mode [ 'lib/getopt.js', 420, 438 ]
+333 silly gunzTarPerm extractEntry index.js
+334 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+335 silly gunzTarPerm extractEntry examples/cb.js
+336 silly gunzTarPerm modified mode [ 'examples/cb.js', 420, 438 ]
+337 silly gunzTarPerm extractEntry tests/test.js
+338 silly gunzTarPerm modified mode [ 'tests/test.js', 420, 438 ]
+339 silly gunzTarPerm extractEntry examples/fancy.js
+340 silly gunzTarPerm modified mode [ 'examples/fancy.js', 420, 438 ]
+341 silly gunzTarPerm extractEntry examples/simple.js
+342 silly gunzTarPerm modified mode [ 'examples/simple.js', 420, 438 ]
+343 silly gunzTarPerm extractEntry test/advanced.js
+344 silly gunzTarPerm modified mode [ 'test/advanced.js', 420, 438 ]
+345 silly gunzTarPerm extractEntry test/bad-chars.js
+346 silly gunzTarPerm modified mode [ 'test/bad-chars.js', 420, 438 ]
+347 silly gunzTarPerm extractEntry test/bad-format.js
+348 silly gunzTarPerm modified mode [ 'test/bad-format.js', 420, 438 ]
+349 silly gunzTarPerm extractEntry test/format.js
+350 silly gunzTarPerm modified mode [ 'test/format.js', 420, 438 ]
+351 silly gunzTarPerm extractEntry test/length.js
+352 silly gunzTarPerm modified mode [ 'test/length.js', 420, 438 ]
+353 silly gunzTarPerm extractEntry test/simple.js
+354 silly gunzTarPerm modified mode [ 'test/simple.js', 420, 438 ]
+355 silly gunzTarPerm extractEntry test/user.js
+356 silly gunzTarPerm modified mode [ 'test/user.js', 420, 438 ]
+357 silly lockFile 1526b25e-s-httpserver-node-modules-latest tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\latest
+358 silly lockFile 1526b25e-s-httpserver-node-modules-latest tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\latest
+359 silly lockFile b9fd5cbb-m-cache-latest-0-1-2-package-tgz tar://C:\Users\Student\AppData\Roaming\npm-cache\latest\0.1.2\package.tgz
+360 silly lockFile b9fd5cbb-m-cache-latest-0-1-2-package-tgz tar://C:\Users\Student\AppData\Roaming\npm-cache\latest\0.1.2\package.tgz
+361 info preinstall latest@0.1.2
+362 verbose readDependencies using package.json deps
+363 verbose readDependencies using package.json deps
+364 silly lockFile ad32d773-server-node-modules-posix-getopt tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\posix-getopt
+365 silly lockFile ad32d773-server-node-modules-posix-getopt tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\posix-getopt
+366 silly lockFile 43332043-e-posix-getopt-1-0-0-package-tgz tar://C:\Users\Student\AppData\Roaming\npm-cache\posix-getopt\1.0.0\package.tgz
+367 silly lockFile 43332043-e-posix-getopt-1-0-0-package-tgz tar://C:\Users\Student\AppData\Roaming\npm-cache\posix-getopt\1.0.0\package.tgz
+368 info preinstall posix-getopt@1.0.0
+369 verbose readDependencies using package.json deps
+370 verbose readDependencies using package.json deps
+371 silly resolved []
+372 verbose about to build C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\posix-getopt
+373 info build C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\posix-getopt
+374 verbose linkStuff [ true,
+374 verbose linkStuff   'C:\\Users\\Student\\AppData\\Roaming\\npm\\node_modules',
+374 verbose linkStuff   false,
+374 verbose linkStuff   'C:\\Users\\Student\\AppData\\Roaming\\npm\\node_modules\\httpserver\\node_modules' ]
+375 info linkStuff posix-getopt@1.0.0
+376 verbose linkBins posix-getopt@1.0.0
+377 verbose linkMans posix-getopt@1.0.0
+378 verbose rebuildBundles posix-getopt@1.0.0
+379 info install posix-getopt@1.0.0
+380 info postinstall posix-getopt@1.0.0
+381 verbose cache add [ 'npm@~1.3.4', null ]
+382 verbose cache add name=undefined spec="npm@~1.3.4" args=["npm@~1.3.4",null]
+383 verbose parsed url { protocol: null,
+383 verbose parsed url   slashes: null,
+383 verbose parsed url   auth: null,
+383 verbose parsed url   host: null,
+383 verbose parsed url   port: null,
+383 verbose parsed url   hostname: null,
+383 verbose parsed url   hash: null,
+383 verbose parsed url   search: null,
+383 verbose parsed url   query: null,
+383 verbose parsed url   pathname: 'npm@~1.3.4',
+383 verbose parsed url   path: 'npm@~1.3.4',
+383 verbose parsed url   href: 'npm@~1.3.4' }
+384 verbose cache add name="npm" spec="~1.3.4" args=["npm","~1.3.4"]
+385 verbose parsed url { protocol: null,
+385 verbose parsed url   slashes: null,
+385 verbose parsed url   auth: null,
+385 verbose parsed url   host: null,
+385 verbose parsed url   port: null,
+385 verbose parsed url   hostname: null,
+385 verbose parsed url   hash: null,
+385 verbose parsed url   search: null,
+385 verbose parsed url   query: null,
+385 verbose parsed url   pathname: '~1.3.4',
+385 verbose parsed url   path: '~1.3.4',
+385 verbose parsed url   href: '~1.3.4' }
+386 verbose addNamed [ 'npm', '~1.3.4' ]
+387 verbose addNamed [ null, '>=1.3.4-0 <1.4.0-0' ]
+388 silly lockFile b70546cc-npm-1-3-4 npm@~1.3.4
+389 verbose lock npm@~1.3.4 C:\Users\Student\AppData\Roaming\npm-cache\b70546cc-npm-1-3-4.lock
+390 silly addNameRange { name: 'npm', range: '>=1.3.4-0 <1.4.0-0', hasData: false }
+391 verbose request where is /npm
+392 verbose request registry https://registry.npmjs.org/
+393 verbose url raw /npm
+394 verbose url resolving [ 'https://registry.npmjs.org/', './npm' ]
+395 verbose url resolved https://registry.npmjs.org/npm
+396 verbose request where is https://registry.npmjs.org/npm
+397 info trying registry request attempt 1 at 11:19:52
+398 http GET https://registry.npmjs.org/npm
+399 silly lockFile 85f25caa-tpserver-node-modules-access-log tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\access-log
+400 silly lockFile 85f25caa-tpserver-node-modules-access-log tar://C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\access-log
+401 silly lockFile ba501928-che-access-log-0-3-9-package-tgz tar://C:\Users\Student\AppData\Roaming\npm-cache\access-log\0.3.9\package.tgz
+402 silly lockFile ba501928-che-access-log-0-3-9-package-tgz tar://C:\Users\Student\AppData\Roaming\npm-cache\access-log\0.3.9\package.tgz
+403 info preinstall access-log@0.3.9
+404 error Error: ENOENT, open 'C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\static-route\test\weird filename$_..
+404 error newline'
+405 error If you need help, you may report this *entire* log,
+405 error including the npm and node versions, at:
+405 error     <http://github.com/npm/npm/issues>
+406 error System Windows_NT 6.1.7601
+407 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "httpserver"
+408 error cwd C:\HP\2016_09\course-hpe-advng-2016-09\01 JavaScript\04 CJS Modules inside Browser
+409 error node -v v0.10.35
+410 error npm -v 1.4.28
+411 error path C:\Users\Student\AppData\Roaming\npm\node_modules\httpserver\node_modules\static-route\test\weird filename$_..
+411 error path newline
+412 error code ENOENT
+413 error errno 34
+414 verbose exit [ 34, true ]

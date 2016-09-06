@@ -1,0 +1,17 @@
+{
+  "name": "modern-angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "systemjs": "^0.19.37",
+    "systemjs-plugin-css": "^0.1.27",
+    "systemjs-plugin-text": "0.0.8"
+  }
+}

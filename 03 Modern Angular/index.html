@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <app>
+        Application is loading ...
+    </app>
+
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script>
+        System.config({
+            defaultJSExtensions: true,
+            map: {
+                "angular": "node_modules/angular/angular.js",
+                "css": "node_modules/systemjs-plugin-css/css.js",
+                "text": "node_modules/systemjs-plugin-text/text.js",
+            }
+        });
+
+        System.import("main");
+    </script>
+</body>
+</html>

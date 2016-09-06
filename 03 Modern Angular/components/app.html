@@ -1,0 +1,10 @@
+<h1>App Component</h1>
+
+<contact-list
+        name="contactList"
+        contacts="$ctrl.contacts"
+        on-reset="$ctrl.onContactListReset(args)">
+</contact-list>
+
+<button ng-click="$ctrl.sayHello()">Click me</button>
+<button ng-click="$ctrl.changeContact()">Change Single Contact</button>
