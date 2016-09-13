@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!--<div ng-controller="second.Ctrl">-->
+    <!--</div>-->
+
+    <div ng-controller="HomeCtrl">
+        <button ng-click="showAdminZone()">Toggle Admin Zone</button>
+
+        <div ng-if="isAdminZoneVisible">
+            <div ng-controller="AdminCtrl">
+                <h1>Admin Zone</h1>
+
+                <button ng-click="run()">Click me</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/requirejs/require.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
