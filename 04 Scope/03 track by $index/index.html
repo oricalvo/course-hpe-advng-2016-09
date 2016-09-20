@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div ng-controller="HomeCtrl">
+        <ul>
+            <li ng-repeat="contact in contacts track by $index">
+                <contact-details contact="contact"></contact-details>
+            </li>
+        </ul>
+
+        <button ng-click="add()">Add</button>
+        <button ng-click="mutate()">Mutate</button>
+        <button ng-click="replace()">Replace</button>
+        <button ng-click="clear()">Clear</button>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

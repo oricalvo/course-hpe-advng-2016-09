@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>Watchers Count: {{$$watchersCount}}</div>
+
+    <div ng-controller="HomeCtrl">
+        <div>data: {{data}}</div>
+
+        <ul>
+            <li ng-repeat="contact in ::contacts">
+                <span>{{::contact.name}}</span>
+                <button ng-click="remove($index)">Delete</button>
+            </li>
+        </ul>
+    </div>
+
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
